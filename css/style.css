@@ -1,0 +1,94 @@
+
+
+
+div#accordionExample {
+ 
+  margin: auto;
+  padding: 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+} 
+
+button.accordion-button {
+  background-color: #054479;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.accordion-body {
+    font-size: 17px;
+    background-color: #e6e9f0;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #054479;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-item {
+  
+  background-color: #054479;
+  display: contents 
+} 
+input#exampleFormControlInput1 {
+  height: 5rem;
+  padding-left: 3rem;
+} 
+
+.row {
+  font-size: 1.2rem;
+  padding: 8rem;
+  background-color: #e6e6e6;
+ 
+}
+textarea#exampleFormControlTextarea1 {
+  padding-left: 3rem;
+  height: 20rem;
+}
+.col-6{
+  padding: 1rem
+}
+.form-control::placeholder{
+  color: #bbbbbb;
+}
+
+h1.Inquiry {
+  font-size: 5rem;
+  font-weight: 700;
+  padding-bottom: 8rem;
+}
+select.form-select {
+  display: flex;
+  width: 5rem;
+  height: 5rem;
+}
+
+.nom.col-6 {
+  display: flex;
+}
+
+.d-grid.gap-4.d-md-flex.justify-content-md-end {
+  padding-top: 5rem;
+} 
+
+
+.btn {
+  background-color:#01bcff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #00516e;
+  color: white;
+}
+
+
+.bto::placeholder{
+  color: #054479;
+}
